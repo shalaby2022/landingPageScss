@@ -1,0 +1,62 @@
+body {
+    font-family: "Poppins","Rubik","Open Sans","egoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+nav {
+    div {
+        button:hover {
+            background-color: rgb(255, 196, 0);
+        }
+    }
+}
+nav {
+    li {
+        .anchor {
+            color:$htxt-color;
+        }
+    }
+}
+
+nav {
+    li {
+        .anchor:hover {
+            color:$primary-color;
+        }
+    }
+}
+
+.section-1 {
+    .more {
+        .secondary {
+            color: $primary-color;
+            position: relative;
+        }
+    }
+}
+.section-1 {
+    .more {
+        .secondary{
+            color: $primary-color;
+            padding: 1rem;
+        }
+    }
+}
+
+.section-1 {
+    .more {
+        .secondary::before{
+            content: "";
+            position: absolute;
+            height: 0;
+            width: 0;
+            top: 40%;
+            left: -0.1rem;
+            border-right: 10px solid transparent; 
+            border-left: 10px solid $primary-color; 
+            border-top: 10px solid transparent; 
+            border-bottom: 10px solid transparent; 
+            color: $primary-color;
+        }
+    }
+}
+

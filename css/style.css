@@ -1,0 +1,91 @@
+body {
+  font-family: "Poppins","Rubik","Open Sans","egoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
+
+nav div button:hover {
+  background-color: #ffc400; }
+
+nav li .anchor {
+  color: #2F281E; }
+
+nav li .anchor:hover {
+  color: #f90; }
+
+.section-1 .more .secondary {
+  color: #f90;
+  position: relative; }
+
+.section-1 .more .secondary {
+  color: #f90;
+  padding: 1rem; }
+
+.section-1 .more .secondary::before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 40%;
+  left: -0.1rem;
+  border-right: 10px solid transparent;
+  border-left: 10px solid #f90;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  color: #f90; }
+
+.btn-primary-nav {
+  background: #f90;
+  width: 120px;
+  text-align: center;
+  color: #FFF;
+  display: inline-block;
+  padding: 0.8rem 0.2rem;
+  border: 1px solid #f90;
+  border-radius: 0.30rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 0.5rem; }
+
+.btn-primary {
+  background: #f90;
+  width: 200px;
+  text-align: center;
+  color: #FFF;
+  display: inline-block;
+  padding: 0.8rem 0.2rem;
+  border: 1px solid #f90;
+  border-radius: 0.30rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 0.5rem; }
+
+.btn-secondary-nav {
+  background: #FFF;
+  width: 120px;
+  text-align: center;
+  color: #2F281E;
+  display: inline-block;
+  padding: 0.8rem 0.2rem;
+  border: 1px solid #2F281E;
+  border-radius: 0.30rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 0.5rem; }
+
+.xlg-text {
+  font-size: 42px;
+  color: #2F281E;
+  font-weight: bold; }
+
+.lg-text {
+  font-size: 34px;
+  color: #2F281E;
+  font-weight: bold; }
+
+.md-text {
+  font-size: 20px;
+  color: #2F281E;
+  font-weight: bold; }
+
+.sm-text {
+  font-size: 16px;
+  color: #8f8b86;
+  font-weight: 600; }

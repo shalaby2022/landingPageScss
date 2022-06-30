@@ -1,0 +1,50 @@
+@mixin btn($bg-color: $primary-color, $size: $width-sm, $tcolor:$secondary-color, $border: 1px solid $primary-color) {
+    background: $bg-color;
+    width: $size;
+    text-align: center;
+    color: $tcolor;
+    display: inline-block;
+    padding: 0.8rem 0.2rem;
+    border: $border;
+    border-radius: 0.30rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 0.5rem
+}
+
+.btn-primary-nav {
+    @include btn;
+}
+
+.btn-primary {
+    @include btn($size: 200px);
+}
+
+.btn-secondary-nav {
+    @include btn($bg-color:#FFF, $tcolor: #2F281E, $border: 1px solid #2F281E)
+}
+
+
+@mixin paragraph($txtSize:$tx-lg-size, $txtColor:$htxt-color, $txt-font: $f-bold) {
+    font-size: $txtSize;
+    color: $txtColor;
+    font-weight: $txt-font;
+}
+
+.xlg-text {
+    @include paragraph;
+}
+
+.lg-text {
+    @include paragraph($txtSize: 34px);
+}
+
+.md-text {
+    @include paragraph($txtSize: 20px);
+}
+
+.sm-text {
+    @include paragraph($txtSize:$tx-sm-size, $txtColor:$stxt-color, $txt-font: $f-regular);
+}
+
+
